@@ -1,0 +1,36 @@
+name: Service Lookup
+description: Look up medical services offered by the clinic
+usage: |
+  Use this tool to find information about services.
+  You can search by service name or get a list of all services.
+  This helps you answer patient questions about what we offer.
+
+example_queries:
+  - What services do we offer?
+  - Tell me about general consultation
+  - What is included in a dental cleaning?
+  - How much does a blood test cost?
+  - What is the duration of an eye exam?
+
+response_format: |
+  Provide service information in a friendly, patient-appropriate way.
+  Include:
+  - Service name
+  - Duration (if patient asks)
+  - Price (if patient asks)
+  - What's included
+  - How it's done
+  - Any special preparation needed
+
+context: |
+  Use this tool to help answer patient questions about:
+  - Available medical services
+  - Service details and descriptions
+  - Pricing information
+  - Service durations
+  - Preparation requirements
+
+tools_to_use:
+  - get_all_services
+  - get_service_by_id
+  - search_services
