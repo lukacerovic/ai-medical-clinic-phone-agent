@@ -1,0 +1,82 @@
+[
+  {
+    "id": "general-consultation",
+    "name": "General Consultation",
+    "durationMinutes": 30,
+    "price": 75,
+    "description": "Initial consultation with a board-certified general practitioner",
+    "whatIsIncluded": "Medical history review, vital signs assessment, general physical examination, initial diagnosis, and treatment recommendations",
+    "howItsDone": "In-person at our clinic or via secure video call",
+    "specialPreparation": null
+  },
+  {
+    "id": "dental-cleaning",
+    "name": "Dental Cleaning & Checkup",
+    "durationMinutes": 45,
+    "price": 120,
+    "description": "Professional teeth cleaning and comprehensive dental examination",
+    "whatIsIncluded": "Professional plaque and tartar removal, teeth polishing, cavity screening, oral hygiene assessment, fluoride treatment",
+    "howItsDone": "In-person at our clinic. Patient sits in dental chair for cleaning and examination.",
+    "specialPreparation": "Please brush and floss before appointment. Avoid eating 30 minutes prior if possible."
+  },
+  {
+    "id": "blood-test",
+    "name": "Blood Test & Analysis",
+    "durationMinutes": 15,
+    "price": 85,
+    "description": "Comprehensive blood work and laboratory analysis",
+    "whatIsIncluded": "Blood draw, complete blood count, metabolic panel, cholesterol screening, and detailed analysis report",
+    "howItsDone": "Quick blood draw at our lab, results available within 24-48 hours",
+    "specialPreparation": "Fasting of 8-12 hours recommended for accurate results. Please bring your insurance card."
+  },
+  {
+    "id": "eye-exam",
+    "name": "Eye Examination",
+    "durationMinutes": 30,
+    "price": 95,
+    "description": "Comprehensive eye health examination and vision assessment",
+    "whatIsIncluded": "Visual acuity testing, eye pressure measurement, retinal examination, color blindness test, and prescription assessment",
+    "howItsDone": "In-person at our clinic with our certified optometrist",
+    "specialPreparation": "Bring current glasses or contacts if you use them. Avoid eye makeup on exam day."
+  },
+  {
+    "id": "follow-up-visit",
+    "name": "Follow-up Visit",
+    "durationMinutes": 20,
+    "price": 50,
+    "description": "Routine follow-up appointment after initial treatment or examination",
+    "whatIsIncluded": "Assessment of previous treatment, vital signs check, prescription refills if needed, adjusted recommendations",
+    "howItsDone": "In-person at clinic or via secure video call. Requires previous visit or referral.",
+    "specialPreparation": null
+  },
+  {
+    "id": "vaccination",
+    "name": "Vaccination Service",
+    "durationMinutes": 20,
+    "price": 45,
+    "description": "Immunization and vaccination administration",
+    "whatIsIncluded": "Consultation about vaccine benefits, vaccine administration, observation period, vaccination record documentation",
+    "howItsDone": "In-person at our clinic. Usually a quick injection and brief observation.",
+    "specialPreparation": "Bring insurance card and any previous vaccination records. Inform staff of allergies."
+  },
+  {
+    "id": "physical-therapy",
+    "name": "Physical Therapy Session",
+    "durationMinutes": 45,
+    "price": 110,
+    "description": "Therapeutic exercises and rehabilitation for injuries or conditions",
+    "whatIsIncluded": "Assessment of mobility and pain, customized exercise program, manual therapy techniques, progress monitoring, home exercise recommendations",
+    "howItsDone": "In-person at our clinic with a licensed physical therapist in equipped therapy room",
+    "specialPreparation": "Wear comfortable, loose-fitting clothes. Bring any medical reports related to your condition."
+  },
+  {
+    "id": "mental-health",
+    "name": "Mental Health Consultation",
+    "durationMinutes": 40,
+    "price": 130,
+    "description": "Counseling and mental health assessment with licensed therapist",
+    "whatIsIncluded": "Initial assessment, confidential discussion, coping strategies, treatment plan, therapy recommendations, referrals if needed",
+    "howItsDone": "In-person at our clinic in a private, confidential setting or via secure video call",
+    "specialPreparation": "Please be ready to discuss your concerns openly. All sessions are confidential per healthcare privacy laws."
+  }
+]
