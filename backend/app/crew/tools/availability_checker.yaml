@@ -1,0 +1,38 @@
+name: Availability Checker
+description: Check appointment availability for medical services
+usage: |
+  Use this tool to check available appointment slots.
+  You can check by service and date range.
+  This helps you find suitable times for patient bookings.
+
+example_queries:
+  - What times are available next week?
+  - When can I schedule a general consultation?
+  - Do you have Friday morning slots open?
+  - What's the earliest available appointment?
+  - Are there any evening appointments?
+
+response_format: |
+  Present available slots in a clear, easy-to-understand way.
+  Offer 2-3 options and let the patient choose.
+  Be specific about dates and times.
+  Confirm the patient's preference clearly.
+
+context: |
+  Use this tool to:
+  - Check available appointment times
+  - Find slots for specific services
+  - Offer alternatives if preferred time is unavailable
+  - Confirm appointment timing before booking
+
+available_time_windows: |
+  Monday - Friday: 8:00 AM - 6:00 PM
+  Saturday: 9:00 AM - 2:00 PM
+  Sunday: Closed
+  Appointments typically on the hour or half-hour
+
+rules:
+  - Each appointment has a duration based on service
+  - Minimum 24 hours notice required
+  - No same-day appointments
+  - Double-check availability before confirming
