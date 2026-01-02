@@ -1,0 +1,51 @@
+name: Reservation Creator
+description: Create and confirm medical service appointments
+usage: |
+  Use this tool to book appointments once patient details are confirmed.
+  Always verify patient name, date of birth, and appointment details
+  before creating the reservation.
+
+required_information:
+  - Service ID (from service lookup)
+  - Appointment date (YYYY-MM-DD format)
+  - Appointment time (HH:MM format)
+  - Patient full name
+  - Patient date of birth (YYYY-MM-DD format)
+
+verification_steps: |
+  1. Confirm patient understands the service
+  2. Confirm availability of chosen slot
+  3. Ask for and verify patient name
+  4. Ask for and verify patient date of birth
+  5. Confirm all appointment details slowly and clearly
+  6. Ask if they have any additional notes or questions
+  7. Create reservation
+  8. Provide confirmation details
+
+response_format: |
+  After booking:
+  - Provide confirmation number
+  - Repeat appointment date and time clearly
+  - Mention service name
+  - Provide next steps or what to expect
+  - Offer to answer additional questions
+  - Thank patient for choosing clinic
+
+rules:
+  - Always confirm details before booking
+  - Read back information slowly and clearly
+  - Provide confirmation number in booking confirmation
+  - Never book without patient consent
+  - Be extra careful with patient names and DOB
+  - Handle errors gracefully and offer to rebook
+
+error_handling: |
+  If patient changes mind:
+  - Ask why (for feedback)
+  - Offer alternative times
+  - Stay professional and understanding
+  
+  If double-booking occurs:
+  - Apologize sincerely
+  - Offer alternative times
+  - Escalate to manager if needed
